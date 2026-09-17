@@ -1,0 +1,154 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #212529;
+    margin: 0;
+}
+
+
+.top-header {
+    background-color: #f8f9fa;
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+
+.hero {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #ffffff, #e9f2ff);
+}
+
+.small-title {
+    color: #0d6efd;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.hero h3 {
+    color: #495057;
+    line-height: 1.5;
+}
+
+.hero p {
+    color: #6c757d;
+    line-height: 1.8;
+}
+
+
+.phone {
+    width: 210px;
+    height: 390px;
+    background: #171717;
+    border: 8px solid #343a40;
+    border-radius: 35px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    padding: 12px;
+}
+
+.phone-camera {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #343a40;
+    color: white;
+    padding: 12px;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.phone-screen {
+    height: 100%;
+    border-radius: 25px;
+    background: linear-gradient(160deg, #0d6efd, #6610f2);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.phone-screen span {
+    font-size: 25px;
+}
+
+.product-description {
+    padding: 80px 0;
+}
+
+.product-description h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.product-description p {
+    color: #6c757d;
+    line-height: 1.8;
+}
+
+.feature-icon {
+    font-size: 30px;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.price-section {
+    padding: 70px 0;
+    background-color: #f8f9fa;
+}
+
+.price {
+    font-size: 55px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+
+.btn-primary {
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 40px 0;
+}
+
+footer p {
+    color: #adb5bd;
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .phone {
+        margin-top: 40px;
+    }
+
+}
+
+.product-image {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 20px 25px rgba(0, 0, 0, 0.25));
+}
